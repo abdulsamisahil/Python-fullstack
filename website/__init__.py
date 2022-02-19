@@ -1,4 +1,7 @@
 from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy() #Next time, will start with handling the db 1.13
 
 def init_app(): 
     application = Flask(__name__)
