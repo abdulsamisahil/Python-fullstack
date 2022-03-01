@@ -1,5 +1,3 @@
-from unicodedata import category
-from urllib.parse import urlencode
 from flask import Blueprint, render_template, request, flash, redirect, url_for
 from flask_login import current_user
 from werkzeug.security import generate_password_hash, check_password_hash
